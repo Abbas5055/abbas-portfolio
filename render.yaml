@@ -1,5 +1,6 @@
 services:
-  - type: static
+  - type: web
+    runtime: static
     name: abbas-portfolio
     branch: main
     staticPublishPath: ./
